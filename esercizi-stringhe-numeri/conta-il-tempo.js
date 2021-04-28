@@ -12,4 +12,3 @@
 
   http://www.imparareaprogrammare.it
 */
-var tempo = 1
