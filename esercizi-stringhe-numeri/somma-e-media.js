@@ -8,15 +8,15 @@
 
   http://www.imparareaprogrammare.it
 */
-const a = 1
-const b = 2
-const c = 3
-const d = 4
-const e = 5
+const a = 1;
+const b = 2;
+const c = 3;
+const d = 4;
+const e = 5;
 
-const somma = a+b+c+d+e
+const somma = a+b+c+d+e;
 
-const media = (a+b+c+d+e)/5
+const media = (a+b+c+d+e)/5;
 
 console.log(somma);
 console.log(media);
