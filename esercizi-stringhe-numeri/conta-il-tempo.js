@@ -12,3 +12,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var secondi_iniziali = 21402;
+
+var minuti = 21402/60;
+var ore = minuti/60;
+
+console.log (minuti);

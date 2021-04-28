@@ -11,3 +11,11 @@
 
   http://www.imparareaprogrammare.it
 */
+var anno_attuale = 2021;
+var anno_nascita = 1960;
+
+const anni_persona = anno_attuale-anno_nascita;
+const anni_per_centenario = 100-anni_persona;
+
+console.log(anni_persona);
+console.log(anni_per_centenario);
