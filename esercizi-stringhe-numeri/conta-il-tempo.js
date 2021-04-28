@@ -12,5 +12,3 @@
 
   http://www.imparareaprogrammare.it
 */
-var time = 0
-console.log(time);
