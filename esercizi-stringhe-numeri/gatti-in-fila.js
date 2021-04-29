@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var num_gatti = 44;
+var gatti_per_fila = 6;
+
+var file_tot_gatti = Math.ceil (44/6);
+var gatti_mancanti = (gatti_per_fila * file_tot_gatti) - num_gatti
+
+console.log(`${num_gatti} gatti in fila per ${gatti_per_fila} si dispongono in ${file_tot_gatti} file con ${gatti_mancanti} gatti mancanti`);
