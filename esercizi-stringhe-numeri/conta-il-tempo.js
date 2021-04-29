@@ -18,10 +18,6 @@ var ore = Math.floor(secondi_iniziali/3600);
 var minuti = Math.floor((secondi_iniziali/3600-ore)*60);
 var secondi = Math.floor((((secondi_iniziali/3600-ore)*60)-minuti)*60);
 
-console.log (ore);
-console.log (minuti);
-console.log (secondi);
+var message = `${secondi_iniziali} secondi sono composti da ${ore} ore, ${minuti} mimuti e ${secondi} secondi`;
 
-var message = `${secondi_iniziali} secondi sono composti da ${ore} ore, ${minuti} mimuti e ${secondi} secondi`
-
-console.log(`${secondi_iniziali} secondi sono composti da ${ore} ore, ${minuti} mimuti e ${secondi} secondi`);
+console.log(message);
